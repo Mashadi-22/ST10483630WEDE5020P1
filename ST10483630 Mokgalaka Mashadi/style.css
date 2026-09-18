@@ -1,0 +1,214 @@
+/* Mashadi's Braids - Part 2 CSS */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Style */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fff5f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #8b2f5b;
+    margin-bottom: 15px;
+}
+
+/* Header */
+header {
+    background-color: #8b2f5b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: white;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffb6c1;
+}
+
+/* Main Content */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* =================================
+   SECTION 3: RESPONSIVE WEB DESIGN
+   MASHADI'S BRAIDS
+   ================================= */
+
+/* 3.1 BREAKPOINTS */
+
+/* Tablet screens */
+@media (max-width: 768px) {
+
+    /* Adjust header */
+    header {
+        padding: 20px;
+    }
+
+    /* Make navigation fit */
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Adjust main content */
+    main {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    /* Make images responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+
+    /* Smaller header */
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Stack navigation vertically */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* Single-column content */
+    main {
+        width: 95%;
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    /* Smaller headings */
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    /* Responsive images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+}
+
+/* 3.2 RELATIVE UNITS */
+
+/* Responsive container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery img {
+        height: auto;
+    }
+
+}
