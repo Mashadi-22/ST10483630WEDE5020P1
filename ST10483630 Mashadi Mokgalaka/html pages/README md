@@ -1,0 +1,55 @@
+# My Website Project
+
+## Part 2
+
+This website has been updated for Part 2 of the assignment.
+
+### Website Pages
+
+- Home
+- About
+- Services
+- Gallery
+- Contact
+
+### Updates Made
+
+- Updated the HTML pages.
+- Updated the website styling using CSS.
+- Improved the website layout and presentation.
+- Checked the website pages and navigation to ensure they work correctly.
+- Added and updated website content as required for Part 2.
+
+## Changelog
+
+### Part 2
+- Updated website content and structure.
+- Added/updated CSS styling.
+- Improved the layout and presentation of the website.
+- Tested the website pages and navigation.
+
+### Part 1 Feedback
+- Changes were made based on feedback received from Part 1.
+- Improvements were made to the website structure, styling and presentation.
+
+## References
+
+- HTML and CSS learning resources used during development.
+- Images and other resources used in the website, where applicable.
+
+Part 3- step 1: Website review and improvements 
+-Reviewed all five website pages: Home, About Us, Services, and Contact.
+-Checked and corrected navigation links to ensure that all pages connect correctly.
+-Tested the website using Live Server.
+-Confirmed that all five pages can successfully.
+-Identified areas for further improvement in functionality and SEO.
+
+### Part 3 – JavaScript Functionality and SEO
+- Created a JavaScript folder and script.js file.
+- Added JavaScript functionality to the website.
+- Added smooth fade-in animations and image hover effects.
+- Added SEO meta descriptions, keywords and author information to all five pages.
+- Improved image alternative text (alt text) for accessibility and SEO.
+- Created a customer booking form on the Contact page.
+- Added JavaScript form validation for required fields, email addresses, phone numbers and booking dates.
+- Tested the booking form and confirmed that validation works.
